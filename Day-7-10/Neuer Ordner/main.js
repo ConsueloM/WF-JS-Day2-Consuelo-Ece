@@ -11,3 +11,7 @@ if (-5 <=temperatur<=10 ) {
 
 
 }
+
+
+var value = [1,7,-3,9];
+document.getElementById("hvalue").innerHTML = (Math.max(...value));
